@@ -1,6 +1,9 @@
 require "delax_puts/version"
 
-module DelaxPuts
-  class Error < StandardError; end
-  # Your code goes here...
+module Kernel
+  def delax_puts(*args)
+    puts "😇 😇 😇 😇 😇 😇"
+    puts *args
+    puts "😇 😇 😇 😇 😇 😇"
+  end
 end
