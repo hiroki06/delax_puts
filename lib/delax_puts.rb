@@ -1,9 +1,9 @@
 require "delax_puts/version"
 
 module Kernel
-  def delax_puts(*args)
-    puts "😇 😇 😇 😇 😇 😇"
-    puts *args
-    puts "😇 😇 😇 😇 😇 😇"
+  def puts(*args)
+    $stdout.puts "😇 😇 😇 😇 😇 😇"
+    $stdout.puts *args
+    $stdout.puts "😇 😇 😇 😇 😇 😇"
   end
 end

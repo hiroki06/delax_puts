@@ -6,7 +6,7 @@ class DelaxPutsTest < Minitest::Test
     refute_nil ::DelaxPuts::VERSION
   end
 
-  def test_it_is_used
-    delax_puts 'test'
+  def test_it_is_override_puts_method
+    puts 'test'
   end
 end
